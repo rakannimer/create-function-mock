@@ -1,0 +1,8 @@
+{
+  "name": "create-function-mock",
+  "version": "1.0.0",
+  "description": "Create a mock for any function",
+  "main": "readme.js",
+  "scripts": {},
+  "dependencies": {}
+}
