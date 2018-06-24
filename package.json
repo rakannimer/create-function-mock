@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Create a mock for any function",
   "main": "readme.js",
-  "scripts": {},
-  "dependencies": {}
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "jest": "latest"
+  }
 }

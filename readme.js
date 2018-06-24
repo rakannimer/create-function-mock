@@ -25,6 +25,7 @@ const createFunctionMock = (mockImplementation = () => {}) => {
     return mockReturn;
   };
   mockedFunction.mock = mock;
+  mockedFunction.getCalls = () => mock.calls;
   return mockedFunction;
 };
 
